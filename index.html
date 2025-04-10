@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css" />
+  <title>Feedback Modal Component - FrontendPro Challenge</title>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <button id="openModalBtn">Give Feedback</button>
+
+
+  <div class="modal" id="feedbackModal">
+
+    <div class="modal-body">
+
+      <h4>How likely are you to recommend FrontendPro to someone?</h4>
+
+      <div class="rating">
+        <button data-rating="1">1</button>
+        <button data-rating="2">2</button>
+        <button data-rating="3">3</button>
+        <button data-rating="4">4</button>
+        <button data-rating="5">5</button>
+        <button data-rating="6">6</button>
+        <button data-rating="7">7</button>
+        <button data-rating="8">8</button>
+        <button data-rating="9">9</button>
+        <button data-rating="10">10</button>
+      </div>
+      <div class="descriptions">
+        <div class="description">less likely</div>
+        <div class="description">most likely</div>
+        
+      </div>
+      <div class="actions">
+
+        <button id="cancel">cancel</button>
+        <button id="submit">Submit</button>
+      </div>
+      <p id="thankYouMessage">Thanks for your feedback!</p>
+    </div>
+  </div>
+
+
+
+  <script src="src/script.js"></script>
+</body>
+
+</html>
